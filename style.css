@@ -1,0 +1,59 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #171126;
+}
+
+.ashton {
+    width: fit-content;
+    padding: 45px;
+    margin: auto;
+    background-color: #1c162b;
+    margin-top: 5%;
+    box-shadow: 5px 5px 5px #1f1830;
+    border-radius: 5px;
+}
+
+.ashton :is(img) {
+    box-shadow: 5px 5px 5px #241b3b;
+    border-radius: 5px;
+}
+
+.author {
+    color: #ff0000;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px #e7231c;
+}
+
+.skills {
+    color: white;
+    font-size: 15px;
+}
+
+.socials {
+    background-color: #120e1b;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 3px #1d1336;
+}
+
+.title {
+    vertical-align: middle;
+    display: inline;
+    color: #6c6383;
+    font-size: 20px;
+}
+
+.link {
+    display: inline;
+    color: white;
+    font-weight: 100;
+    color: #bdace7;
+    font-size: 12px;
+    background-color: #1e192c;
+    padding: 8px;
+    border-radius: 5px;
+}
